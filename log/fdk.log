@@ -1,0 +1,824 @@
+2022-06-14 22:40:37.159 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:40:37.162 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:40:37.162 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 22:40:37.162 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:40:37.162 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 22:40:37.162 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 22:40:37.162 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:40:37.163 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 22:40:37.163 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 22:40:37.163 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"create","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 22:40:37.163 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:40:37.163 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 22:40:37.214 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:40:37.224 +0530 [debug] ([34mcreate.js[0m) [31m'init' called with C:\Users\Aditya Tawade\Desktop\Songs, your_first_serverless_app, freshservice[0m
+2022-06-14 22:40:37.225 +0530 [debug] ([34mcreate.js[0m) [31mInitializing template "your_first_serverless_app" with product "freshservice".[0m
+2022-06-14 22:40:37.263 +0530 [info] A new Freshservice app was successfully created from template "your_first_serverless_app" with the following files.
+
+2022-06-14 22:41:25.114 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:41:25.117 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:41:25.117 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 22:41:25.117 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:41:25.117 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 22:41:25.118 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 22:41:25.118 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:41:25.118 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 22:41:25.118 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 22:41:25.118 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 22:41:25.118 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:41:25.118 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 22:41:25.457 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 22:41:25.457 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 22:41:25.460 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:41:25.493 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:41:25.872 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.report.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.report.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:41:27.407 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:41:28.644 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 22:41:28.645 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-06-14 22:41:28.646 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-06-14 22:41:28.646 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-06-14 22:41:28.646 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Aditya Tawade\Desktop\Songs/config/ exists.[0m
+2022-06-14 22:41:28.647 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-06-14 22:41:28.647 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-06-14 22:41:28.647 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-06-14 22:41:28.657 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler"] as exported functions.[0m
+2022-06-14 22:41:28.657 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-06-14 22:41:28.661 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-06-14 22:41:28.661 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-06-14 22:41:28.661 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-06-14 22:41:28.661 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-06-14 22:41:28.661 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-06-14 22:41:28.662 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-06-14 22:41:28.662 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-06-14 22:41:28.662 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-06-14 22:41:28.665 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-06-14 22:41:28.665 +0530 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-06-14 22:41:28.665 +0530 [error] 
+2022-06-14 22:41:28.666 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-06-14 22:41:28.672 +0530 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-06-14 22:41:28.673 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:41:28.673 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-06-14 22:41:28.673 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-06-14 22:41:28.924 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-06-14 22:41:28.927 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-06-14 22:41:28.928 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-06-14 22:41:28.929 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2022-06-14 22:41:28.930 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2022-06-14 22:41:28.931 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-06-14 22:41:28.962 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:41:28.962 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-06-14 22:41:28.963 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-06-14 22:41:28.963 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-06-14 22:41:28.964 +0530 [info] Populating test data with events found in the app
+2022-06-14 22:41:38.031 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:41:38.036 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:41:38.112 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:41:38.113 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:41:38.130 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:41:38.136 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:41:47.087 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler"] as exported functions.[0m
+2022-06-14 22:41:58.690 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:41:58.690 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 22:41:58.690 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketCreate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":293,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 22:41:58.692 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 22:41:59.286 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 22:46:51.850 +0530 [debug] ([34mmanifest.js[0m) [31mError while parsing manifest file Unexpected string in JSON at position 206[0m
+2022-06-14 22:48:02.382 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:48:02.384 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:48:02.384 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 22:48:02.384 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:48:02.385 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 22:48:02.385 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 22:48:02.385 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:48:02.385 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 22:48:02.385 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 22:48:02.385 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 22:48:02.385 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:48:02.385 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 22:48:02.671 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 22:48:02.671 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 22:48:02.674 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:48:02.707 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:48:04.202 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:48:05.324 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 22:48:05.325 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-06-14 22:48:05.326 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-06-14 22:48:05.326 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-06-14 22:48:05.326 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Aditya Tawade\Desktop\Songs/config/ exists.[0m
+2022-06-14 22:48:05.327 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-06-14 22:48:05.327 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-06-14 22:48:05.327 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-06-14 22:48:05.337 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 22:48:05.338 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-06-14 22:48:05.342 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-06-14 22:48:05.342 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-06-14 22:48:05.342 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-06-14 22:48:05.342 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-06-14 22:48:05.342 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-06-14 22:48:05.343 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-06-14 22:48:05.343 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-06-14 22:48:05.343 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-06-14 22:48:05.346 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-06-14 22:48:05.346 +0530 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-06-14 22:48:05.346 +0530 [error] 
+2022-06-14 22:48:05.348 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-06-14 22:48:05.354 +0530 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-06-14 22:48:05.355 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:48:05.355 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-06-14 22:48:05.355 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-06-14 22:48:05.809 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-06-14 22:48:05.811 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-06-14 22:48:05.812 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-06-14 22:48:05.814 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2022-06-14 22:48:05.815 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2022-06-14 22:48:05.816 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-06-14 22:48:05.838 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:48:05.839 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-06-14 22:48:05.840 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-06-14 22:48:05.840 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-06-14 22:48:05.840 +0530 [info] Populating test data with events found in the app
+2022-06-14 22:48:16.138 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:48:16.138 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 22:48:16.138 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketCreate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":293,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 22:48:16.139 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 22:48:16.190 +0530 [error] Error: onTicketCreate is not configured
+    at ProductEvent.getMethodName (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\event_handler\framework.js:313:11)
+    at ProductEvent.execute (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\event_handler\framework.js:318:26)
+    at handler (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\event_handler\framework.js:362:11)
+    at handleRequest (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\routes\beevents.js:108:3)
+    at Layer.handle [as handle_request] (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\index.js:286:9
+2022-06-14 22:48:16.700 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 22:48:41.587 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-06-14 22:48:48.774 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:48:48.776 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:48:48.776 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 22:48:48.776 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:48:48.777 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 22:48:48.777 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 22:48:48.777 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:48:48.777 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 22:48:48.777 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 22:48:48.777 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 22:48:48.777 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:48:48.777 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 22:48:49.070 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 22:48:49.071 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 22:48:49.074 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:48:49.099 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:48:50.587 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:48:51.732 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 22:48:51.733 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-06-14 22:48:51.734 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-06-14 22:48:51.734 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-06-14 22:48:51.734 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Aditya Tawade\Desktop\Songs/config/ exists.[0m
+2022-06-14 22:48:51.735 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-06-14 22:48:51.735 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-06-14 22:48:51.735 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-06-14 22:48:51.744 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 22:48:51.744 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-06-14 22:48:51.748 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-06-14 22:48:51.748 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-06-14 22:48:51.748 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-06-14 22:48:51.748 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-06-14 22:48:51.748 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-06-14 22:48:51.748 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-06-14 22:48:51.748 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-06-14 22:48:51.749 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-06-14 22:48:51.751 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-06-14 22:48:51.752 +0530 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-06-14 22:48:51.752 +0530 [error] 
+2022-06-14 22:48:51.753 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-06-14 22:48:51.759 +0530 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-06-14 22:48:51.760 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:48:51.760 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-06-14 22:48:51.760 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-06-14 22:48:52.751 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-06-14 22:48:52.754 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-06-14 22:48:52.756 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-06-14 22:48:52.757 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2022-06-14 22:48:52.758 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2022-06-14 22:48:52.760 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-06-14 22:48:52.783 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:48:52.784 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-06-14 22:48:52.785 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-06-14 22:48:52.785 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-06-14 22:48:52.785 +0530 [info] Populating test data with events found in the app
+2022-06-14 22:48:58.906 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:48:58.908 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:48:58.961 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:48:58.962 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:48:58.967 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:48:58.967 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:49:00.272 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 22:49:15.933 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:49:15.934 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 22:49:15.934 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketUpdate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketUpdate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":293,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"changes":{"priority":[null,3],"priority_name":["Low","High"],"status":[1,2],"status_name":["Open","Closed"],"source":[1,2],"source_name":["Email","Phone"],"type_name":["Incident","Service Request"],"urgency":[1,2],"urgency_name":["Low","Medium"],"impact":[1,2],"impact_name":["Low","Medium"],"group_id":[1,2],"group_name":["Incident Management","Change Management"],"agent_id":[1,2],"agent_name":["Rachel","Andrea"],"department_id":[1,2],"department_name":["HR","Finance"],"category":["Hardware","Software"],"sub_category":["Windows","Phone"],"item_category":["*","Mac"],"manual_due_by":["*","2017-06-16T11:57:30"],"custom_fields":[{"name":"Transaction Type","value":["old value","new value"]}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 22:49:15.936 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 22:49:16.524 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 22:50:05.370 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"},"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 22:50:05.371 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 22:50:05.372 +0530 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"manifest.json"}" to all listeners.[0m
+2022-06-14 22:50:20.396 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:50:20.397 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"},"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:50:20.449 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:50:20.449 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"},"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:50:20.454 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:50:20.456 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketUpdate":{"handler":"onTicketUpdateCallback"},"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:50:21.726 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler"] as exported functions.[0m
+2022-06-14 22:50:25.962 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-06-14 22:52:10.859 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:52:10.862 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:52:10.862 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 22:52:10.862 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:52:10.862 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 22:52:10.863 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 22:52:10.863 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:52:10.863 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 22:52:10.863 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 22:52:10.863 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 22:52:10.863 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:52:10.863 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 22:52:11.160 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 22:52:11.161 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 22:52:11.164 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:52:11.194 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:52:12.665 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:52:13.794 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 22:52:13.795 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-06-14 22:52:13.795 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-06-14 22:52:13.796 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-06-14 22:52:13.796 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Aditya Tawade\Desktop\Songs/config/ exists.[0m
+2022-06-14 22:52:13.796 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-06-14 22:52:13.797 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-06-14 22:52:13.797 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-06-14 22:52:13.806 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler"] as exported functions.[0m
+2022-06-14 22:52:13.807 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-06-14 22:52:13.810 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-06-14 22:52:13.811 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-06-14 22:52:13.811 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-06-14 22:52:13.811 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-06-14 22:52:13.811 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-06-14 22:52:13.811 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-06-14 22:52:13.812 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-06-14 22:52:13.812 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-06-14 22:52:13.814 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-06-14 22:52:13.815 +0530 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-06-14 22:52:13.815 +0530 [error] 
+2022-06-14 22:52:13.816 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-06-14 22:52:13.822 +0530 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-06-14 22:52:13.823 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:52:13.823 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-06-14 22:52:13.823 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-06-14 22:52:14.262 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-06-14 22:52:14.265 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-06-14 22:52:14.267 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-06-14 22:52:14.268 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2022-06-14 22:52:14.269 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2022-06-14 22:52:14.270 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-06-14 22:52:14.292 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:52:14.293 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-06-14 22:52:14.294 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-06-14 22:52:14.294 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-06-14 22:52:14.294 +0530 [info] Populating test data with events found in the app
+2022-06-14 22:52:17.169 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:52:17.172 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:52:17.210 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:52:17.210 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:52:17.216 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:52:17.216 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 22:52:18.205 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler"] as exported functions.[0m
+2022-06-14 22:52:48.481 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:53:21.914 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:55:35.410 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 22:55:35.411 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 22:55:35.411 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketCreate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":295,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 22:55:35.412 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 22:55:35.978 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 22:58:31.945 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-06-14 22:58:57.757 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:58:57.760 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:58:57.760 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 22:58:57.760 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 22:58:57.760 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 22:58:57.760 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 22:58:57.761 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 22:58:57.761 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 22:58:57.761 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 22:58:57.761 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"pack","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 22:58:57.761 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:58:57.761 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 22:58:57.866 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 22:58:57.867 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 22:58:57.868 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:58:59.394 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 22:59:00.267 +0530 [debug] ([34mpack.js[0m) [31m'pack' called with {}[0m
+2022-06-14 22:59:00.268 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 22:59:00.268 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-06-14 22:59:00.269 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-06-14 22:59:00.269 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-06-14 22:59:00.270 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Aditya Tawade\Desktop\Songs/config/ exists.[0m
+2022-06-14 22:59:00.270 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-06-14 22:59:00.270 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-06-14 22:59:00.271 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-06-14 22:59:00.279 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler"] as exported functions.[0m
+2022-06-14 22:59:00.279 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-06-14 22:59:00.283 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator lint[0m
+2022-06-14 22:59:00.283 +0530 [debug] ([34mlint.js[0m) [31mpassed fix flag: undefined[0m
+2022-06-14 22:59:00.285 +0530 [debug] ([34mlint-util.js[0m) [31mRunning the following lints on the file server\lib\handle-response.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unlisted-url,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-dependency-mismatch,no-empty-function,no-unused-vars[0m
+2022-06-14 22:59:00.333 +0530 [debug] ([34mlint-util.js[0m) [31mRunning the following lints on the file server\server.js : no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,no-eval,no-alert,no-debugger,no-unreachable,no-unlisted-url,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-dependency-mismatch,no-empty-function,no-unused-vars[0m
+2022-06-14 22:59:00.337 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-06-14 22:59:00.337 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type pre_pkg_validation[0m
+2022-06-14 22:59:00.337 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest-dependency[0m
+2022-06-14 22:59:00.337 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-06-14 22:59:00.338 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-06-14 22:59:00.338 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator schema[0m
+2022-06-14 22:59:00.338 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-06-14 22:59:00.341 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-06-14 22:59:00.341 +0530 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-06-14 22:59:00.342 +0530 [error] 
+2022-06-14 22:59:00.343 +0530 [info] App being packed in Node v14.0.0 using FDK 8.3.2
+2022-06-14 22:59:00.356 +0530 [debug] ([34mpack.js[0m) [31mCannot find './app' directory while packing.[0m
+2022-06-14 22:59:00.356 +0530 [debug] ([34mpack.js[0m) [31mCannot find './visitor-app' directory while packing.[0m
+2022-06-14 22:59:00.357 +0530 [debug] ([34mpack.js[0m) [31mCannot find './src' directory while packing.[0m
+2022-06-14 22:59:00.373 +0530 [debug] ([34mfile-util.js[0m) [31mComputing digest for manifest.json.[0m
+2022-06-14 22:59:00.381 +0530 [debug] ([34mpack.js[0m) [31mPacking ./server\lib\handle-response.js[0m
+2022-06-14 22:59:00.383 +0530 [debug] ([34mpack.js[0m) [31mPacking ./server\server.js[0m
+2022-06-14 22:59:00.386 +0530 [debug] ([34mpack.js[0m) [31mPacking ./config\iparam_test_data.json[0m
+2022-06-14 22:59:00.386 +0530 [debug] ([34mpack.js[0m) [31mPacking ./config\iparams.json[0m
+2022-06-14 22:59:00.386 +0530 [debug] ([34mpack.js[0m) [31mPacking ./manifest.json[0m
+2022-06-14 22:59:00.387 +0530 [debug] ([34mpack.js[0m) [31mPacking ./.report.json[0m
+2022-06-14 22:59:00.387 +0530 [debug] ([34mpack.js[0m) [31mPacking ./README.md[0m
+2022-06-14 22:59:00.387 +0530 [debug] ([34mpack.js[0m) [31mPacking ./digest.md5[0m
+2022-06-14 22:59:00.482 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 22:59:00.483 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator actions[0m
+2022-06-14 22:59:00.483 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator app-dir[0m
+2022-06-14 22:59:00.483 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator config-dir[0m
+2022-06-14 22:59:00.483 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator custom-objects[0m
+2022-06-14 22:59:00.483 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator event[0m
+2022-06-14 22:59:00.483 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator iparam[0m
+2022-06-14 22:59:00.484 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-06-14 22:59:00.484 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest[0m
+2022-06-14 22:59:00.484 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-06-14 22:59:00.484 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator oauth[0m
+2022-06-14 22:59:00.484 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator pkgsize[0m
+2022-06-14 22:59:00.485 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator schema[0m
+2022-06-14 22:59:00.485 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator version-check[0m
+2022-06-14 22:59:00.486 +0530 [info] App packed successfully at \dist\Songs.zip
+2022-06-14 22:59:00.486 +0530 [info] Upload this file to the marketplace by following the instructions at https://developer.freshservice.com/docs/freshservice-apps/
+2022-06-14 22:59:00.487 +0530 [debug] ([34mfile-util.js[0m) [31mDeleting digest.[0m
+2022-06-14 23:20:41.321 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 23:20:41.323 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 23:20:41.323 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 23:20:41.323 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 23:20:41.324 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 23:20:41.324 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 23:20:41.324 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 23:20:41.324 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 23:20:41.324 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 23:20:41.324 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 23:20:41.324 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:20:41.325 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 23:20:41.624 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 23:20:41.624 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 23:20:41.627 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:20:41.649 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:20:43.263 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:20:44.447 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 23:20:44.449 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-06-14 23:20:44.449 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-06-14 23:20:44.449 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-06-14 23:20:44.450 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Aditya Tawade\Desktop\Songs/config/ exists.[0m
+2022-06-14 23:20:44.450 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-06-14 23:20:44.450 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-06-14 23:20:44.451 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-06-14 23:20:44.459 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler","onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 23:20:44.460 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-06-14 23:20:44.464 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-06-14 23:20:44.464 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-06-14 23:20:44.464 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-06-14 23:20:44.464 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-06-14 23:20:44.465 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-06-14 23:20:44.465 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-06-14 23:20:44.465 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-06-14 23:20:44.465 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-06-14 23:20:44.468 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-06-14 23:20:44.468 +0530 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-06-14 23:20:44.468 +0530 [error] 
+2022-06-14 23:20:44.470 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-06-14 23:20:44.476 +0530 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-06-14 23:20:44.477 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:20:44.477 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-06-14 23:20:44.477 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-06-14 23:20:44.919 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-06-14 23:20:44.921 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-06-14 23:20:44.922 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-06-14 23:20:44.923 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2022-06-14 23:20:44.924 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2022-06-14 23:20:44.925 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-06-14 23:20:44.950 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:20:44.952 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-06-14 23:20:44.952 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-06-14 23:20:44.953 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-06-14 23:20:44.953 +0530 [info] Populating test data with events found in the app
+2022-06-14 23:20:50.809 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:20:50.810 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 23:20:50.843 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:20:50.843 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 23:20:50.847 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:20:50.847 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 23:20:51.889 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler","onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 23:21:37.801 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:21:37.802 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 23:21:37.802 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketCreate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":295,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 23:21:37.803 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 23:21:38.373 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 23:21:44.971 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:21:44.972 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 23:21:44.972 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketUpdate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketUpdate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":293,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"changes":{"priority":[null,3],"priority_name":["Low","High"],"status":[1,2],"status_name":["Open","Closed"],"source":[1,2],"source_name":["Email","Phone"],"type_name":["Incident","Service Request"],"urgency":[1,2],"urgency_name":["Low","Medium"],"impact":[1,2],"impact_name":["Low","Medium"],"group_id":[1,2],"group_name":["Incident Management","Change Management"],"agent_id":[1,2],"agent_name":["Rachel","Andrea"],"department_id":[1,2],"department_name":["HR","Finance"],"category":["Hardware","Software"],"sub_category":["Windows","Phone"],"item_category":["*","Mac"],"manual_due_by":["*","2017-06-16T11:57:30"],"custom_fields":[{"name":"Transaction Type","value":["old value","new value"]}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 23:21:44.972 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 23:21:45.491 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 23:23:53.330 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:23:53.331 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 23:23:53.331 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketCreate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":295,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 23:23:53.331 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 23:23:53.847 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 23:25:46.511 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-06-14 23:27:03.027 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 23:27:03.029 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 23:27:03.030 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 23:27:03.030 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 23:27:03.030 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 23:27:03.030 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 23:27:03.031 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 23:27:03.031 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 23:27:03.031 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 23:27:03.031 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 23:27:03.031 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:27:03.031 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 23:27:03.313 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 23:27:03.314 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 23:27:03.317 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:27:03.342 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:27:04.801 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:27:05.927 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 23:27:05.928 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-06-14 23:27:05.929 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-06-14 23:27:05.929 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-06-14 23:27:05.929 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Aditya Tawade\Desktop\Songs/config/ exists.[0m
+2022-06-14 23:27:05.930 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-06-14 23:27:05.930 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-06-14 23:27:05.930 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-06-14 23:27:05.941 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler","onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 23:27:05.942 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-06-14 23:27:05.945 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-06-14 23:27:05.945 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-06-14 23:27:05.946 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-06-14 23:27:05.946 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-06-14 23:27:05.946 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-06-14 23:27:05.946 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-06-14 23:27:05.946 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-06-14 23:27:05.946 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-06-14 23:27:05.950 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-06-14 23:27:05.950 +0530 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-06-14 23:27:05.950 +0530 [error] 
+2022-06-14 23:27:05.951 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-06-14 23:27:05.957 +0530 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-06-14 23:27:05.958 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:27:05.958 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-06-14 23:27:05.958 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-06-14 23:27:06.392 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-06-14 23:27:06.395 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-06-14 23:27:06.397 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-06-14 23:27:06.398 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2022-06-14 23:27:06.399 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2022-06-14 23:27:06.401 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-06-14 23:27:06.427 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:27:06.428 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-06-14 23:27:06.429 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-06-14 23:27:06.429 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-06-14 23:27:06.430 +0530 [info] Populating test data with events found in the app
+2022-06-14 23:27:12.817 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:27:12.818 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 23:27:12.818 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketCreate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":295,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 23:27:12.819 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 23:27:13.385 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 23:27:52.127 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:27:52.127 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 23:27:52.127 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketCreate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":295,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 23:27:52.128 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 23:27:52.651 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 23:28:01.143 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-06-14 23:28:05.094 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 23:28:05.098 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 23:28:05.098 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 23:28:05.099 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 23:28:05.101 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 23:28:05.101 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 23:28:05.101 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 23:28:05.102 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 23:28:05.102 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 23:28:05.102 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 23:28:05.102 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:28:05.102 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 23:28:05.472 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 23:28:05.474 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 23:28:05.478 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:28:05.508 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:28:07.090 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:28:08.449 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 23:28:08.450 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-06-14 23:28:08.450 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-06-14 23:28:08.450 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-06-14 23:28:08.451 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Aditya Tawade\Desktop\Songs/config/ exists.[0m
+2022-06-14 23:28:08.451 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-06-14 23:28:08.451 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-06-14 23:28:08.452 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-06-14 23:28:08.461 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler","onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 23:28:08.462 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-06-14 23:28:08.465 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-06-14 23:28:08.465 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-06-14 23:28:08.465 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-06-14 23:28:08.466 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-06-14 23:28:08.466 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-06-14 23:28:08.466 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-06-14 23:28:08.466 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-06-14 23:28:08.466 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-06-14 23:28:08.469 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-06-14 23:28:08.469 +0530 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-06-14 23:28:08.469 +0530 [error] 
+2022-06-14 23:28:08.471 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-06-14 23:28:08.477 +0530 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-06-14 23:28:08.478 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:28:08.478 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-06-14 23:28:08.478 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-06-14 23:28:08.863 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-06-14 23:28:08.866 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-06-14 23:28:08.867 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-06-14 23:28:08.869 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2022-06-14 23:28:08.870 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2022-06-14 23:28:08.872 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-06-14 23:28:08.906 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:28:08.907 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-06-14 23:28:08.908 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-06-14 23:28:08.908 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-06-14 23:28:08.908 +0530 [info] Populating test data with events found in the app
+2022-06-14 23:28:23.908 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:28:23.908 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 23:28:23.908 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketCreate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":295,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 23:28:23.909 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 23:28:24.491 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 23:29:27.111 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:29:27.111 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 23:29:27.112 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketCreate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketCreate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":295,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 23:29:27.112 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 23:29:27.640 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 23:39:51.020 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2022-06-14 23:42:26.478 +0530 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 23:42:26.480 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 23:42:26.481 +0530 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-06-14 23:42:26.481 +0530 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json: Cannot find module 'C:\Users\Aditya Tawade\Desktop\Songs/.fdk/configs.json'
+Require stack:
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2022-06-14 23:42:26.481 +0530 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-06-14 23:42:26.481 +0530 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-06-14 23:42:26.481 +0530 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-06-14 23:42:26.481 +0530 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.0.0 on win32[0m
+2022-06-14 23:42:26.481 +0530 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "C:\Users\Aditya Tawade\Desktop\Songs/.fdk/store.sqlite"[0m
+2022-06-14 23:42:26.482 +0530 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-06-14 23:42:26.482 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:42:26.482 +0530 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-06-14 23:42:26.827 +0530 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.0.0","fdk":"8.3.2"}}.[0m
+2022-06-14 23:42:26.828 +0530 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-06-14 23:42:26.830 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:42:26.858 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:42:28.745 +0530 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.3.3","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1655226250516}}[0m
+2022-06-14 23:42:30.111 +0530 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-06-14 23:42:30.113 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-06-14 23:42:30.113 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-06-14 23:42:30.113 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-06-14 23:42:30.114 +0530 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if C:\Users\Aditya Tawade\Desktop\Songs/config/ exists.[0m
+2022-06-14 23:42:30.114 +0530 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.json,iparam_test_data.json[0m
+2022-06-14 23:42:30.114 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-06-14 23:42:30.115 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-06-14 23:42:30.131 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler","onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 23:42:30.131 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-06-14 23:42:30.135 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-06-14 23:42:30.135 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-06-14 23:42:30.136 +0530 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-06-14 23:42:30.136 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-06-14 23:42:30.136 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-06-14 23:42:30.136 +0530 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-06-14 23:42:30.136 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-06-14 23:42:30.136 +0530 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-06-14 23:42:30.139 +0530 [warn] Please ensure that the following are addressed for quick review process.
+2022-06-14 23:42:30.140 +0530 [warn] [33m[WARN][0m iparam_test_data.json is deprecated, to test the installation page, visit - http://localhost:10001/custom_configs
+2022-06-14 23:42:30.140 +0530 [error] 
+2022-06-14 23:42:30.143 +0530 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./config,./manifest.json[0m
+2022-06-14 23:42:30.150 +0530 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {}[0m
+2022-06-14 23:42:30.151 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:42:30.151 +0530 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-06-14 23:42:30.151 +0530 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-06-14 23:42:30.813 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-06-14 23:42:30.816 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-06-14 23:42:30.817 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-06-14 23:42:30.819 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\entity.js"[0m
+2022-06-14 23:42:30.820 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\record.js"[0m
+2022-06-14 23:42:30.821 +0530 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-06-14 23:42:30.848 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:42:30.849 +0530 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-06-14 23:42:30.849 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshservice account URL to start testing    
+e.g. https://domain.freshservice.com/helpdesk/tickets/1?dev=true    
+Quit the server with Control-C.
+2022-06-14 23:42:30.849 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-06-14 23:42:30.850 +0530 [info] Populating test data with events found in the app
+2022-06-14 23:42:33.405 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:42:33.406 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 23:42:33.460 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:42:33.460 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 23:42:33.469 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:42:33.470 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 23:42:34.685 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler","onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 23:42:47.293 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:42:47.293 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 23:42:47.293 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketUpdate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketUpdate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":297,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"changes":{"priority":[null,3],"priority_name":["Low","High"],"status":[1,2],"status_name":["Open","Closed"],"source":[1,2],"source_name":["Email","Phone"],"type_name":["Incident","Service Request"],"urgency":[1,2],"urgency_name":["Low","Medium"],"impact":[1,2],"impact_name":["Low","Medium"],"group_id":[1,2],"group_name":["Incident Management","Change Management"],"agent_id":[1,2],"agent_name":["Rachel","Andrea"],"department_id":[1,2],"department_name":["HR","Finance"],"category":["Hardware","Software"],"sub_category":["Windows","Phone"],"item_category":["*","Mac"],"manual_due_by":["*","2017-06-16T11:57:30"],"custom_fields":[{"name":"Transaction Type","value":["old value","new value"]}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 23:42:47.294 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 23:42:47.367 +0530 [error] server.js:274
+    var Ticket_Attchment = (cov_2b5okue2p4.s[5]++, payload.data.ticket.attachments.map(x => {
+                                                   ^
+
+ReferenceError: payload is not defined
+    at Object.onTicketUpdateCallback (server.js:274:52)
+    at server.js:2:44
+    at server.js:4:7
+    at Script.runInContext (vm.js:142:20)
+    at ProductEvent.sandboxExecutor (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\event_handler\framework.js:225:25)
+    at ProductEvent.execute (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\event_handler\framework.js:219:10)
+    at ProductEvent.execute (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\event_handler\framework.js:318:13)
+    at handler (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\event_handler\framework.js:362:11)
+    at handleRequest (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\lib\routes\beevents.js:108:3)
+    at Layer.handle [as handle_request] (C:\Users\Aditya Tawade\AppData\Roaming\npm\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+2022-06-14 23:42:47.865 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 23:43:07.571 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:43:07.571 +0530 [debug] ([34mbeevents.js[0m) [31mUsing {} as iparams for testing.[0m
+2022-06-14 23:43:07.571 +0530 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"productEvent","categoryArgs":{"methodName":"onTicketUpdate","methodParams":{"account_id":"1","domain":"sample.freshservice.com","timestamp":1496400354326,"region":"US","event":"onTicketUpdate","data":{"ticket":{"subject":"Support Needed...","description":"<div>Some details on the issue ..</div>","is_description_truncated":false,"description_text":"Some details on the issue ...","is_description_text_truncated":false,"due_by":"2015-07-14T13:08:06Z","fr_due_by":"2015-07-14T13:08:06Z","fr_escalated":false,"is_escalated":false,"fwd_emails":["charles@freshservice.com","diana@freshservice.com"],"reply_cc_emails":["charles@freshservice.com","diana@freshservice.com"],"email_config_id":77123,"id":297,"group_id":351,"group_name":"Service Desk","department_id":2,"department_name":"HR","requester_id":5483,"requester_name":"Rachel","responder_id":320,"responder_email":"andrea@freshservice.com","responder_name":"Andrea","status":2,"status_name":"Open","priority":1,"priority_name":"Low","urgency":1,"urgency_name":"Low","impact":1,"impact_name":"Low","type":1,"type_name":"Incident","tags":["sales","marketing"],"spam":false,"source":2,"source_name":"Portal","category":"Hardware","sub_category":"Laptop","item_category":"Mac","cc_emails":["ram@freshservice.com","diana@freshservice.com"],"to_emails":["ram@freshservice.com","diana@freshservice.com"],"created_at":"2015-07-09T13:08:06Z","updated_at":"2015-07-09T13:08:06Z","attachments":[{"name":"sample.jpg","attachment_url":"https://s3.amazonaws.com/cdn.freshservice.com/data/helpdesk/attachments/production/9019290053/original/sample.jpg"}],"problem":[{"problem_id":1223,"problem_name":"Problem in..."}],"change":[{"change_id":13442,"change_name":"Change for..."}],"assets":[{"asset_id":1,"asset_name":"Laptop","asset_impact":"High"}],"custom_fields":[{"name":"Org code","label":"Org code","column":"ffs_04","type":"dropdown","value":"XMO_12"},{"name":"RCA","label":"RCA","column":"ffs_05","type":"dropdown","value":"fix steps were..."}]},"changes":{"priority":[null,3],"priority_name":["Low","High"],"status":[1,2],"status_name":["Open","Closed"],"source":[1,2],"source_name":["Email","Phone"],"type_name":["Incident","Service Request"],"urgency":[1,2],"urgency_name":["Low","Medium"],"impact":[1,2],"impact_name":["Low","Medium"],"group_id":[1,2],"group_name":["Incident Management","Change Management"],"agent_id":[1,2],"agent_name":["Rachel","Andrea"],"department_id":[1,2],"department_name":["HR","Finance"],"category":["Hardware","Software"],"sub_category":["Windows","Phone"],"item_category":["*","Mac"],"manual_due_by":["*","2017-06-16T11:57:30"],"custom_fields":[{"name":"Transaction Type","value":["old value","new value"]}]},"requester":{"id":5483,"name":"Rachel","email":"rachel@freshservice.com","mobile":7654367287,"phone":4352789885,"language":"en","created_at":"2015-03-28T09:08:16Z"},"actor":{"profile_id":27000015175}},"iparams":{}}}}[0m
+2022-06-14 23:43:07.572 +0530 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting C:\Users\Aditya Tawade\Desktop\Songs\server\server.js[0m
+2022-06-14 23:43:08.102 +0530 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-06-14 23:43:27.140 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:43:27.141 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 23:43:27.197 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:43:27.198 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 23:43:27.206 +0530 [debug] ([34mdata-util.js[0m) [31mRead {}[0m
+2022-06-14 23:43:27.207 +0530 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"Songs","product":{"freshservice":{"events":{"onTicketCreate":{"handler":"onTicketCreateHandler"},"onTicketUpdate":{"handler":"onTicketUpdateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshservice"],"platform":"2.2","v2":[]}[0m
+2022-06-14 23:43:28.467 +0530 [debug] ([34mevent-util.js[0m) [31mFound ["onTicketCreateHandler","onTicketUpdateCallback"] as exported functions.[0m
+2022-06-14 23:45:10.052 +0530 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
